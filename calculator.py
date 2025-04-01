@@ -12,7 +12,11 @@ def divide(a, b):
         return a / b
     else:
         return "Error! Division by zero."
+import math
 
+def square_root(a):
+    return math.sqrt(a)
+    
 if __name__ == "__main__":
     print("Select operation:")
     print("1. Add")
